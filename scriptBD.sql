@@ -40,3 +40,12 @@ price money,
 categoryName nvarchar(30)
 )
 ---select * from articles;
+create table orders(
+month varchar(15),
+store varchar(50),
+district varchar(35),
+seller varchar(30),
+article varchar(50),
+brand varchar(30),
+quantity int
+)
